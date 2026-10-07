@@ -1,0 +1,205 @@
+{
+ "mutations": [
+  {
+   "base": "RLLR",
+   "mut": "LLLR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "RLLR",
+   "mut": "FLLR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "RLLR",
+   "mut": "ULLR",
+   "cls_base": 3,
+   "cls_mut": 1
+  },
+  {
+   "base": "RLLR",
+   "mut": "RRLR",
+   "cls_base": 3,
+   "cls_mut": 1
+  },
+  {
+   "base": "RLLR",
+   "mut": "RFLR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "RLLR",
+   "mut": "RULR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "RLLR",
+   "mut": "RLRR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "RLLR",
+   "mut": "RLFR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "RLLR",
+   "mut": "RLUR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "RLLR",
+   "mut": "RLLL",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "RLLR",
+   "mut": "RLLF",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "RLLR",
+   "mut": "RLLU",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "LRLR",
+   "mut": "RRLR",
+   "cls_base": 3,
+   "cls_mut": 1
+  },
+  {
+   "base": "LRLR",
+   "mut": "FRLR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "LRLR",
+   "mut": "URLR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "LRLR",
+   "mut": "LLLR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "LRLR",
+   "mut": "LFLR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "LRLR",
+   "mut": "LULR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "LRLR",
+   "mut": "LRRR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "LRLR",
+   "mut": "LRFR",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "LRLR",
+   "mut": "LRUR",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "LRLR",
+   "mut": "LRLL",
+   "cls_base": 3,
+   "cls_mut": 3
+  },
+  {
+   "base": "LRLR",
+   "mut": "LRLF",
+   "cls_base": 3,
+   "cls_mut": 4
+  },
+  {
+   "base": "LRLR",
+   "mut": "LRLU",
+   "cls_base": 3,
+   "cls_mut": 3
+  }
+ ],
+ "initial_conditions": [
+  {
+   "case": "пустое поле (контроль)",
+   "cls": 3,
+   "tau": 104,
+   "d": [
+    2,
+    2
+   ],
+   "t_onset": 10112,
+   "nvis": 1427
+  },
+  {
+   "case": "чёрная клетка в старте (0,0)",
+   "cls": 3,
+   "tau": 104,
+   "d": [
+    2,
+    -2
+   ],
+   "t_onset": 10113,
+   "nvis": 1427
+  },
+  {
+   "case": "чёрная клетка на раннем пути (1,0)",
+   "cls": 3,
+   "tau": 104,
+   "d": [
+    2,
+    -2
+   ],
+   "t_onset": 10111,
+   "nvis": 1427
+  },
+  {
+   "case": "чёрная клетка далеко (40,40)",
+   "cls": 3,
+   "tau": 104,
+   "d": [
+    2,
+    2
+   ],
+   "t_onset": 10112,
+   "nvis": 1427
+  },
+  {
+   "case": "20 случайных клеток в радиусе 30",
+   "cls": 3,
+   "tau": 108,
+   "d": [
+    2,
+    -2
+   ],
+   "t_onset": 13295,
+   "nvis": 1690
+  }
+ ]
+}

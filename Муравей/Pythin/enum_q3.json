@@ -1,0 +1,618 @@
+[
+ {
+  "rule": "RRR",
+  "cls": 2,
+  "tau": 12,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "RRL",
+  "cls": 3,
+  "tau": 18,
+  "d": [
+   1,
+   1
+  ],
+  "t_onset": 112,
+  "nvis": 39
+ },
+ {
+  "rule": "RRF",
+  "cls": 2,
+  "tau": 1456,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 24
+ },
+ {
+  "rule": "RRU",
+  "cls": 3,
+  "tau": 25,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 170,
+  "nvis": 16
+ },
+ {
+  "rule": "RLR",
+  "cls": 3,
+  "tau": 2182,
+  "d": [
+   7,
+   -7
+  ],
+  "t_onset": 552,
+  "nvis": 386
+ },
+ {
+  "rule": "RLL",
+  "cls": 3,
+  "tau": 4640,
+  "d": [
+   -4,
+   10
+  ],
+  "t_onset": 989,
+  "nvis": 651
+ },
+ {
+  "rule": "RLF",
+  "cls": 3,
+  "tau": 18,
+  "d": [
+   -2,
+   0
+  ],
+  "t_onset": 40,
+  "nvis": 24
+ },
+ {
+  "rule": "RLU",
+  "cls": 2,
+  "tau": 276,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 10
+ },
+ {
+  "rule": "RFR",
+  "cls": 2,
+  "tau": 1456,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 24
+ },
+ {
+  "rule": "RFF",
+  "cls": 3,
+  "tau": 69,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 104,
+  "nvis": 26
+ },
+ {
+  "rule": "RUR",
+  "cls": 3,
+  "tau": 15,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 96,
+  "nvis": 16
+ },
+ {
+  "rule": "RUL",
+  "cls": 2,
+  "tau": 3228,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1149,
+  "nvis": 115
+ },
+ {
+  "rule": "RUF",
+  "cls": 3,
+  "tau": 15,
+  "d": [
+   0,
+   1
+  ],
+  "t_onset": 82,
+  "nvis": 26
+ },
+ {
+  "rule": "RUU",
+  "cls": 2,
+  "tau": 36,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "LRR",
+  "cls": 3,
+  "tau": 4640,
+  "d": [
+   -4,
+   -10
+  ],
+  "t_onset": 989,
+  "nvis": 651
+ },
+ {
+  "rule": "LRL",
+  "cls": 3,
+  "tau": 2182,
+  "d": [
+   7,
+   7
+  ],
+  "t_onset": 552,
+  "nvis": 386
+ },
+ {
+  "rule": "LRF",
+  "cls": 3,
+  "tau": 18,
+  "d": [
+   -2,
+   0
+  ],
+  "t_onset": 40,
+  "nvis": 24
+ },
+ {
+  "rule": "LRU",
+  "cls": 2,
+  "tau": 276,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 10
+ },
+ {
+  "rule": "LLR",
+  "cls": 3,
+  "tau": 18,
+  "d": [
+   1,
+   -1
+  ],
+  "t_onset": 112,
+  "nvis": 39
+ },
+ {
+  "rule": "LLL",
+  "cls": 2,
+  "tau": 12,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "LLF",
+  "cls": 2,
+  "tau": 1456,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 24
+ },
+ {
+  "rule": "LLU",
+  "cls": 3,
+  "tau": 25,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 170,
+  "nvis": 16
+ },
+ {
+  "rule": "LFL",
+  "cls": 2,
+  "tau": 1456,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 24
+ },
+ {
+  "rule": "LFF",
+  "cls": 3,
+  "tau": 69,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 104,
+  "nvis": 26
+ },
+ {
+  "rule": "LUR",
+  "cls": 2,
+  "tau": 3228,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1149,
+  "nvis": 115
+ },
+ {
+  "rule": "LUL",
+  "cls": 3,
+  "tau": 15,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 96,
+  "nvis": 16
+ },
+ {
+  "rule": "LUF",
+  "cls": 3,
+  "tau": 15,
+  "d": [
+   0,
+   -1
+  ],
+  "t_onset": 82,
+  "nvis": 26
+ },
+ {
+  "rule": "LUU",
+  "cls": 2,
+  "tau": 36,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "FRR",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FRL",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FRF",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FRU",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FLR",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FLL",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FLF",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FLU",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FFR",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FFL",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FFF",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FFU",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FUR",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FUL",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FUF",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "FUU",
+  "cls": 3,
+  "tau": 1,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 4,
+  "nvis": 8
+ },
+ {
+  "rule": "URR",
+  "cls": 3,
+  "tau": 5,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 22,
+  "nvis": 13
+ },
+ {
+  "rule": "URL",
+  "cls": 2,
+  "tau": 276,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 10
+ },
+ {
+  "rule": "URU",
+  "cls": 2,
+  "tau": 36,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "ULR",
+  "cls": 2,
+  "tau": 276,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 10
+ },
+ {
+  "rule": "ULL",
+  "cls": 3,
+  "tau": 5,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 22,
+  "nvis": 13
+ },
+ {
+  "rule": "ULU",
+  "cls": 2,
+  "tau": 36,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "UFF",
+  "cls": 2,
+  "tau": 188,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 7,
+  "nvis": 12
+ },
+ {
+  "rule": "UFU",
+  "cls": 3,
+  "tau": 3,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 14,
+  "nvis": 8
+ },
+ {
+  "rule": "UUR",
+  "cls": 2,
+  "tau": 36,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "UUL",
+  "cls": 2,
+  "tau": 36,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 4
+ },
+ {
+  "rule": "UUF",
+  "cls": 3,
+  "tau": 5,
+  "d": [
+   -1,
+   0
+  ],
+  "t_onset": 19,
+  "nvis": 7
+ },
+ {
+  "rule": "UUU",
+  "cls": 2,
+  "tau": 6,
+  "d": [
+   0,
+   0
+  ],
+  "t_onset": 1,
+  "nvis": 2
+ }
+]
