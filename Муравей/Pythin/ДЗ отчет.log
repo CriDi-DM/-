@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.10)  1 OCT 2026 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.10)  8 OCT 2026 18:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Федук ДЗ отчет.tex"
-(./Федук ДЗ отчет.tex
+**"ДЗ отчет.tex"
+(./ДЗ отчет.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -638,11 +638,11 @@ File: lstlang1.sty 2025/11/14 1.11b listings language file
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count327
 )
-(./Федук ДЗ отчет.aux
+(./ДЗ отчет.aux
 Package babel Info: 'russian' activates 'russian' shorthands.
 (babel)             Reported on input line 8.
 )
-\openout1 = `"Федук ДЗ отчет.aux"'.
+\openout1 = `"ДЗ отчет.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
@@ -729,12 +729,11 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count334
 Package hyperref Info: Link coloring ON on input line 21.
 
-(./Федук ДЗ отчет.out) (./Федук ДЗ отчет.out)
+(./ДЗ отчет.out) (./ДЗ отчет.out)
 \@outlinefile=\write3
-\openout3 = `"Федук ДЗ отчет.out"'.
+\openout3 = `"ДЗ отчет.out"'.
 
-
-(./Федук ДЗ отчет.toc
+ (./ДЗ отчет.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (c:/texlive/2026/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -746,7 +745,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
-\openout4 = `"Федук ДЗ отчет.toc"'.
+\openout4 = `"ДЗ отчет.toc"'.
 
  [1
 
@@ -803,23 +802,22 @@ Overfull \hbox (23.13063pt too wide) in paragraph at lines 415--421
  \T2A/cmtt/m/n/12 series5b_fields.png\T2A/cmr/m/n/12 ,
  []
 
-[14] (./Федук ДЗ отчет.aux)
+[14] (./ДЗ отчет.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `"Федук ДЗ отчет".out' has not ch
-anged.
+Package rerunfilecheck Info: File `"ДЗ отчет".out' has not changed.
 (rerunfilecheck)             Checksum: 3D94DE23137DC787135EF97CEBC35762;7113.
  ) 
 Here is how much of TeX's memory you used:
  16286 strings out of 467525
- 248631 string characters out of 5423209
- 999871 words of memory out of 5000000
+ 248334 string characters out of 5423209
+ 999849 words of memory out of 5000000
  44903 multiletter control sequences out of 15000+600000
  639064 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1494b,1237s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1483b,1237s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/tex
 live/2026/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2026/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2026/texmf-dist
@@ -832,7 +830,7 @@ ive/2026/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2026/t
 exmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2026/texmf-dist/
 fonts/type1/public/cm-super/sftt1095.pfb><c:/texlive/2026/texmf-dist/fonts/type
 1/public/cm-super/sftt1200.pfb>
-Output written on "Федук ДЗ отчет.pdf" (14 pages, 926820 bytes).
+Output written on "ДЗ отчет.pdf" (14 pages, 926820 bytes).
 PDF statistics:
  376 PDF objects out of 1000 (max. 8388607)
  321 compressed objects within 4 object streams
