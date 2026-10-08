@@ -57,10 +57,10 @@ def hdr(title):
 def _turns_dirs(lattice):
     return (TURN4, DIRS4, 4) if lattice == 'square' else (TURN6, DIRS6, 6)
 
-def scan_period(dirs, pos, T, tau_max=TAU_MAX):
+def scan_period(dirs, pos, T, tau_max=TAU_MAX, k_min=3000):
     """Эталонный критерий: периодичность последовательности направлений."""
     for tau in range(1, min(tau_max, T // 3) + 1):
-        k = min(T - tau, max(3 * tau, 3000))
+        k = min(T - tau, max(3 * tau, k_min))
         if np.array_equal(dirs[T-k:T-tau], dirs[T-k+tau:T]):
             j = T - k - 1
             while j >= 0 and dirs[j] == dirs[j + tau]:
@@ -70,11 +70,11 @@ def scan_period(dirs, pos, T, tau_max=TAU_MAX):
             return tau, s0, (int(p1[0]-p0[0]), int(p1[1]-p0[1]))
     return None
 
-def classify_verified(rule, T=T_MAIN, lattice='square', wait=4000):
+def classify_verified(rule, T=T_MAIN, lattice='square', wait=4000, init=None):
     """Эталонный классификатор: хэш полного состояния (ограниченные правила)
     + скан периодичности траектории (магистрали). Без локальных окон."""
     TURN, DIRS, nD = _turns_dirs(lattice)
-    q = len(rule); field = {}
+    q = len(rule); field = dict(init) if init else {}
     r = c = 0; d = 0
     dirs = np.empty(T, dtype=np.int32)
     pos = np.zeros((T + 1, 2), dtype=np.int32)
@@ -275,7 +275,13 @@ def part1():
             else:
                 conf, prev = 0, None
             seen[w] = (t, (r, c))
-    tau_v, s0, d_v = scan_period(dirs, pos, T, tau_max=1000)
+    got = scan_period(dirs, pos, T, tau_max=1000, k_min=1000)
+    if got is None:
+        log('ПРЕДУПРЕЖДЕНИЕ: скан направлений не нашёл период '
+            '(слишком короткий хвост после перехода); увеличьте T в part1')
+        tau_v, s0, d_v = None, None, None
+    else:
+        tau_v, s0, d_v = got
     t_det, tau, dd, t_onset = resW
     log(f'{"шаг":>6} | расстояние | ненулевых клеток')
     for t in range(2000, T + 1, 2000):
