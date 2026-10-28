@@ -1,0 +1,20 @@
+\babel@toc {russian}{}\relax 
+\contentsline {section}{\numberline {1}Цель и задачи работы}{2}{section.1}%
+\contentsline {section}{\numberline {2}Математическая модель}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Уравнения движения и сила взаимодействия}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Законы сохранения}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Интегратор velocity Verlet}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Прямой метод расчёта сил (Particle--Particle)}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Алгоритм Барнса--Хата и дерево QuadTree}{3}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Метрика ошибки приближённого метода}{4}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Начальные условия}{4}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Реализация и параметры модели}{4}{section.3}%
+\contentsline {section}{\numberline {4}Численные эксперименты и результаты}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Эксперимент 1. Проверка законов сохранения (прямой метод)}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Эксперимент 2. Верификация алгоритма Барнса--Хата}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Эксперимент 3. Исследование производительности методов}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Эксперимент 4. Влияние параметра $\theta $ на точность и быстродействие}{6}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Эксперимент 5. Сохранение энергии при приближённых силах}{6}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Эксперимент 6. Визуализация структуры QuadTree}{6}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Анализ результатов}{6}{section.5}%
+\contentsline {section}{\numberline {6}Выводы}{9}{section.6}%
