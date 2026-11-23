@@ -1,0 +1,29 @@
+{
+  "size": 501,
+  "particles_including_seed": 4000,
+  "seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033,
+    2034,
+    2035
+  ],
+  "runs": 70,
+  "max_steps_per_walker": 100000,
+  "max_attempts_per_run": 12000000,
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "versions": {
+    "numpy": "1.26.4",
+    "numba": "0.62.1",
+    "matplotlib": "3.9.2",
+    "Pillow": "10.4.0",
+    "scipy": "1.16.2"
+  },
+  "elapsed_seconds": 47.94
+}
